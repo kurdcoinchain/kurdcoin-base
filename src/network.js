@@ -5,6 +5,6 @@
  * @type {{PUBLIC: string, TESTNET: string}}
  */
 export const Networks = {
-  PUBLIC: 'Public Global Stellar Network ; September 2015',
+  PUBLIC: 'KurdCoin Network ; Mar 2021',
   TESTNET: 'Test SDF Network ; September 2015'
 };

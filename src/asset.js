@@ -23,7 +23,7 @@ export class Asset {
         'Asset code is invalid (maximum alphanumeric, 12 characters at max)'
       );
     }
-    if (String(code).toLowerCase() !== 'xlm' && !issuer) {
+    if (String(code).toLowerCase() !== 'krd' && !issuer) {
       throw new Error('Issuer cannot be null');
     }
     if (issuer && !StrKey.isValidEd25519PublicKey(issuer)) {
@@ -39,7 +39,7 @@ export class Asset {
    * @Return {Asset}
    */
   static native() {
-    return new Asset('XLM');
+    return new Asset('KRD');
   }
 
   /**
