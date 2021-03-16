@@ -1,6 +1,6 @@
 {
   "name": "kurdcoin-base",
-  "version": "4.0.3",
+  "version": "4.0.5",
   "description": "Low level kurdcoin support library",
   "main": "./lib/index.js",
   "types": "./types/index.d.ts",
@@ -40,7 +40,7 @@
     "url": "https://github.com/kurdcoinchain/kurdcoin-base.git"
   },
   "keywords": [
-    "stellar"
+    "kurdcoin"
   ],
   "author": "KurdCoin <dev@kurdcoin.network>",
   "license": "Apache-2.0",
